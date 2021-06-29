@@ -13,7 +13,7 @@ rođake. Na sajtu je u planu uraditi sledeće:
 
 
 ## Kontakt
-Stevan - @https://www.linkedin.com/in/stevan-ljujic-5b4a2520a/ - codingljujic@gmail.com
+Stevan - [Linkedin](https://www.linkedin.com/in/stevan-ljujic-5b4a2520a/) - codingljujic@gmail.com
 
 
 
