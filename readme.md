@@ -1,29 +1,23 @@
-# Foobar
+# Završni projekat 
 
-Foobar is a Python library for dealing with word pluralization.
+Završni projekat za IT Bootcamp kurs za PHP.
 
-## Installation
+## Opis
+U pitanju je završni projekat za kurs, urađen je u PHP jeziku i povezan sa MySQL bazom.
+Cilj projekta je sajt koji će moći da pomogne mojoj široj familiji da pretraži dalju 
+rođake. Na sajtu je u planu uraditi sledeće: 
+- Napraviti porodično stablo od 5 kolena uz pomoć Dtree library-a
+- Dodati JS code koji omogućava bolje učitavanje strana kao što su registracija ili login
+- Dodati opciju dodavanja blog postova na home page za logovane user-e
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
 
-```bash
-pip install foobar
-```
 
-## Usage
+## Kontakt
+Stevan - @https://www.linkedin.com/in/stevan-ljujic-5b4a2520a/ - codingljujic@gmail.com
 
-```python
-import foobar
 
-foobar.pluralize('word') # returns 'words'
-foobar.pluralize('goose') # returns 'geese'
-foobar.singularize('phenomena') # returns 'phenomenon'
-```
 
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-Please make sure to update tests as appropriate.
-
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
+## Priznanja
+Bootstrap 
+Dtree
