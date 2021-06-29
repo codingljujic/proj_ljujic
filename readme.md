@@ -9,15 +9,14 @@ rođake. Na sajtu je u planu uraditi sledeće:
 - Napraviti porodično stablo od 5 kolena uz pomoć Dtree library-a
 - Dodati JS code koji omogućava bolje učitavanje strana kao što su registracija ili login
 - Dodati opciju dodavanja blog postova na home page za logovane user-e
-
-
+- Odraditi hosting sajt-a
+- 
 
 ## Kontakt
-Stevan - [Linkedin](https://www.linkedin.com/in/stevan-ljujic-5b4a2520a/) - codingljujic@gmail.com
+Stevan - [Linkedin](https://www.linkedin.com/in/stevan-ljujic-5b4a2520a/) 
+codingljujic@gmail.com
 
 
-
-
-## Priznanja
-Bootstrap 
-Dtree
+## Korišćeni tool/library
+[Bootstrap](https://getbootstrap.com/) 
+[Dtree](https://github.com/ErikGartner/dTree)
