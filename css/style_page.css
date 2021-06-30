@@ -1,0 +1,53 @@
+
+html *
+{
+   font-family: 'Playfair Display', serif;
+   
+}
+
+.formH1
+{
+  font-weight: bold; 
+
+}
+
+.heightMM
+{
+   height: 130px;
+}
+
+.fakeImg
+{
+   background-image: url("/PHP_boot/proj_ljujic/img/slika.png");
+   height: 200px;
+   background-repeat: no-repeat;
+   background-size: cover;
+
+
+}
+
+.homeImg
+{
+   background-image: url('/PHP_boot/proj_ljujic/img/bratstvo_ljujica.png');
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 75vh;
+   width: 100vw;
+}
+.homeH1
+{
+   color: white;
+   position: absolute;   
+   font-weight: bold;
+   margin-left: 10px;
+   font-size: 50px;
+
+}
+.formImg
+{
+   background-image: url('/PHP_boot/proj_ljujic/img/cilim.png');
+   background-repeat: no-repeat;
+   background-size: cover;
+   box-sizing: border-box;
+   height: calc(100% - 152px);
+}

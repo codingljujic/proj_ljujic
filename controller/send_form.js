@@ -1,12 +1,12 @@
 function save_data(){
     // Prikputi elemente sa klasom form_data
-    var form_element = document.getElementsByClassName("form_data");
+    let form_element = document.getElementsByClassName("form_data");
 
     // Nova Ajax funkcija
-    var form_data = new FormData();
+    let form_data = new FormData();
 
     // Dodavanje imena i vrednosti u form data 
-    var count = 0;
+    let count = 0;
     for(count; count<form_element.length; count++)
     {
         // Kao array push u form datu
@@ -17,7 +17,7 @@ function save_data(){
     document.getElementsById('submit').disabled = true;
     
     // Novi Ajax zahtev
-    var ajax_request = new XMLHttpRequest();
+    let ajax_request = new XMLHttpRequest();
     ajax_request.open('GET','form_request.php');
     
     // Sta saljemo
