@@ -1,14 +1,15 @@
-<div class="formImg">
-    <div class="container mt-4">
-        <h1 class="formH1">Контакт форма</h1>
+<div id="formImg">
+    <div class="container">
         <span id="message"> </span>
         <form id="form" onsubmit= "return save_data()" method="GET">
             <div class = "row">
-                <div class="col">
+            <h1 id="formH1">Контакт форма</h1>
+
+                <div class="col mt-2">
                     <label for="ime" class="form-label">Име</label>
                     <input type="text" class="form-control form_data" id="exampleInputtext1" name= "ime">
                 </div>
-                <div class="col">
+                <div class="col mt-2">
                     <label for="prezime" class="form-label" >Презиме</label>
                     <input type="text" class="form-control form_data" id="exampleInputtext1" name= "prezime">
                 </div>

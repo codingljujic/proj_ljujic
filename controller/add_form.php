@@ -27,4 +27,4 @@
         </div>
         <button type="submit" class="btn btn-primary mt-2">Dodajte osobu</button>
     </form>
-    </div>
+</div>

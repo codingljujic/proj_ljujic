@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-xl navbar-light bg-light">
           <a class="navbar-brand">
             <img src="/PHP_boot/proj_ljujic/img/grb_ljujici.png" alt="" width="60" height="70">
           </a>
@@ -53,5 +53,5 @@
               <?php endif ?>
           </ul>
         </div>
-    </div>
+      </div>
 </nav>

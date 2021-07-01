@@ -1,5 +1,5 @@
 <?php
-include(dirname(__DIR__).'\model\person_class.php');
+require_once (dirname(__DIR__).'\model\person_class.php');
 echo "<table class='table table-hover'>";
 echo"<thead>
     <tr>

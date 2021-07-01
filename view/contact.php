@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="/PHP_boot/proj_ljujic/css/font.css">
+<link rel="stylesheet" href="/PHP_boot/proj_ljujic/css/style_page.css">
 
 <?php 
     require_once (dirname(__DIR__).'\controller\page_temp.php'); 

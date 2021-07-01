@@ -1,2 +1,3 @@
-<?php include (dirname(__DIR__).'\controller\page_temp.php'); 
+<?php 
+    require_once (dirname(__DIR__).'\controller\page_temp.php'); 
 ?>

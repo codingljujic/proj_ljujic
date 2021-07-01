@@ -1,14 +1,10 @@
 
-html *
-{
-   font-family: 'Playfair Display', serif;
-   
-}
 
-.formH1
+#formH1
 {
-  font-weight: bold; 
-
+  font-weight: bold;
+  color: white;
+  margin-top: 20px;
 }
 
 .heightMM
@@ -16,24 +12,7 @@ html *
    height: 130px;
 }
 
-.fakeImg
-{
-   background-image: url("/PHP_boot/proj_ljujic/img/slika.png");
-   height: 200px;
-   background-repeat: no-repeat;
-   background-size: cover;
 
-
-}
-
-.homeImg
-{
-   background-image: url('/PHP_boot/proj_ljujic/img/bratstvo_ljujica.png');
-   background-repeat: no-repeat;
-   background-size: cover;
-   height: 75vh;
-   width: 100vw;
-}
 .homeH1
 {
    color: white;
@@ -43,11 +22,26 @@ html *
    font-size: 50px;
 
 }
-.formImg
+
+#formImg
 {
+
    background-image: url('/PHP_boot/proj_ljujic/img/cilim.png');
    background-repeat: no-repeat;
    background-size: cover;
-   box-sizing: border-box;
    height: calc(100% - 152px);
+   color: white;
+   font-weight: bold;
 }
+
+#iHome
+{
+   background-image: url('/PHP_boot/proj_ljujic/img/zlatar.png');
+   background-size: cover;
+   background-repeat: no-repeat;
+   height: calc(100vh - 96px);
+   width: 100%;
+
+
+}
+

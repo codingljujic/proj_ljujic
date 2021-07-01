@@ -1,5 +1,5 @@
 <?php
-    include '/xampp/htdocs/PHP_boot/proj_ljujic/model/db_class.php';
+    require_once '/xampp/htdocs/PHP_boot/proj_ljujic/model/db_class.php';
     
     if(isset($_GET['ime']))
     {

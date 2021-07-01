@@ -1,5 +1,5 @@
 <div class="container mt-4">
-<h1 class="formH1">Улогујте се </h1>
+<h1 class="">Улогујте се </h1>
     <form action="/PHP_Boot/proj_ljujic/controller/login_request.php" method="POST">
         <div class="form-group">
             <label for="exampleInputEmail1">Мејл адреса</label>

@@ -1,6 +1,6 @@
 <?php
-include (dirname(__DIR__).'\controller\page_temp.php');
-include(dirname(__DIR__).'\model\person_class.php');
+require_once (dirname(__DIR__).'\controller\page_temp.php');
+require_once (dirname(__DIR__).'\model\person_class.php');
 
    if(isset($_GET['id'])){
     $person_det = $persons->show_person($_GET['id']);
