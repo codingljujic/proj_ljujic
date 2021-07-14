@@ -9,6 +9,10 @@
 
     $conn= new Base();
     $check = $conn->correct_log_entry($mail,$sifra);
-    
-
+    if($check== false)
+        header('Location: /PHP_boot/proj_ljujic/view/login.php?msg=failed');
+    else{
+        $_SESSION['user'] = 1;
+        header('Location: /PHP_boot/proj_ljujic/view/logged.php');
+    }
 ?>

@@ -6,6 +6,7 @@
         {
             $this->conn = new mysqli('localhost','root','','ljujici_podaci');
         }
+        
         public function select_from($input)
         {
             $y = $this->conn->query($input);
@@ -25,9 +26,8 @@
         public function check_in_mails($mail,$password,$name)
         {
             $result = $this->select_from("SELECT * FROM `login_unos` WHERE mail = '$mail'");
-            if(!empty($result['arr'])){
-                header('Location: /PHP_boot/proj_ljujic/view/register.php');
-            }
+            if(!empty($result['arr']))
+                header('Location: /PHP_boot/proj_ljujic/view/register.php?msg=error');
             else{
                 $insert = $this->conn->query("INSERT INTO `login_unos`(`id`,`mail`,`sifra`,`login_ime`,`vreme`) VALUES ('','$mail','$password','$name',current_timestamp())");
                 header('Location: /PHP_boot/proj_ljujic/view/login.php');
@@ -37,19 +37,16 @@
         public function correct_log_entry($mail,$sifra)
         {
             $result = $this->select_from("SELECT * FROM `login_unos` WHERE mail = '$mail' AND sifra = '$sifra'");
-            if(empty($result['arr'])){
-                header('Location: /PHP_boot/proj_ljujic/view/register.php');
-            }
-            else{
-                $_SESSION['user'];
-                header("Location: /PHP_boot/proj_ljujic/controller/logged.php");
-            }
+            if(empty($result['arr']))
+                return false;
+            else
+                return true;
         }
         public function check_in_person($ime,$devojacko,$datum,$mesto,$zanimanje,$o_osobi)
         {
             $result = $this->select_from("SELECT * FROM `osobe` WHERE `ime` = '$ime' AND `datum_rodjenja` = '$datum'");
             if(!empty($result['arr']))
-                header('Location: /PHP_boot/proj_ljujic/controller/exists.php');
+                header('Location: /PHP_boot/proj_ljujic/view/add_new.php?msg=error');
             
             else{
                 $insert = $this->select_from("INSERT INTO `osobe`(`id_osobe`, `ime`, `devojacko_prezime`, `datum_rodjenja`, `mesto_rodjenja`, `zanimanje`, `o_osobi`) VALUES ('','$ime','$devojacko','$datum','$mesto','$zanimanje','$o_osobi')");

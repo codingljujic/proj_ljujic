@@ -12,3 +12,8 @@
         <button type="submit" class="btn btn-primary mt-2">Улогуј се</button>
     </form>
 </div>
+<?php 
+    if (isset($_GET["msg"]) && $_GET["msg"] == 'failed') 
+        echo "<p>Погрешна шифра или мејл адреса</p>";
+?>
+    

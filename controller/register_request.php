@@ -10,7 +10,7 @@
         $sifra = $_POST['sifra'];
     
     $conn= new Base();
-    $check = $conn->check_in_mails($mail,$sifra,$ime);
+    $add_new_user = $conn->check_in_mails($mail,$sifra,$ime);
     
 
 

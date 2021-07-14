@@ -7,18 +7,16 @@ function save_data(){
 
     // Dodavanje imena i vrednosti u form data 
     let count = 0;
-    for(count; count<form_element.length; count++)
-    {
+    for(count; count<form_element.length; count++){
         // Kao array push u form datu
         form_data.append(form_element[count].name, form_element[count].value);
     }
-
     // Stanje za button submit stavljamo kao true
     document.getElementsById('submit').disabled = true;
     
     // Novi Ajax zahtev
     let ajax_request = new XMLHttpRequest();
-    ajax_request.open('GET','form_request.php');
+    ajax_request.open('GET','contact_request.php');
     
     // Sta saljemo
     ajax_request.send(form_data);

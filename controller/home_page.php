@@ -15,7 +15,7 @@
         require_once (dirname(__DIR__).'\controller\navbar.php');
     ?>
     <div id="iHome">
-        <H1 class="homeH1"> Добродошли на сајт Братства Љујића</H1>
+        <h1 class="homeH1"> Добродошли на сајт Братства Љујића</h1>
     </div>  
 
    

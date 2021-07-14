@@ -4,10 +4,10 @@
         <form id="form" onsubmit= "return save_data()" method="GET">
             <div class = "row">
             <h1 id="formH1">Контакт форма</h1>
-
                 <div class="col mt-2">
                     <label for="ime" class="form-label">Име</label>
                     <input type="text" class="form-control form_data" id="exampleInputtext1" name= "ime">
+                    <span class='error-message' id='name-error'></span>
                 </div>
                 <div class="col mt-2">
                     <label for="prezime" class="form-label" >Презиме</label>

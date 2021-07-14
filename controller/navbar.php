@@ -1,15 +1,15 @@
-<nav class="navbar navbar-expand-xl navbar-light bg-light">
+<nav class="navbar navbar-expand-xl navbar-light bg-light d-flex justify-content-between">
           <a class="navbar-brand">
             <img src="/PHP_boot/proj_ljujic/img/grb_ljujici.png" alt="" width="60" height="70">
+            <span>Братство Љујића</span>
           </a>
-          <a class="navbar-brand">Братство Љујића</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
           </button>
-      <div class="justify-content-end">
+      <div>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <?php if(!(isset($_SESSION['user']))):?> 
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 float-right">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="/PHP_boot/proj_ljujic/view/index_home.php">Почетна Страна</a>
             </li>
@@ -40,8 +40,8 @@
               <li class="nav-item">
                 <a class="nav-link" href="/PHP_boot/proj_ljujic/view/contact.php" tabindex="-1" >Контактирајте нас</a>
               </li>   
-            <?php session_start();
-                  else: ?>
+            <?php
+                else: ?>
               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
                     <a class="nav-link" href="/PHP_boot/proj_ljujic/view/add_new.php">Додавање нових чланова</a>
